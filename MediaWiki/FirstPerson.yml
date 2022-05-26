@@ -1,0 +1,14 @@
+---
+extends: existence
+message: "Avoid first person ('%s'), unless you are writing a FAQ with questions asked from the first person perspective."
+link: 'https://www.mediawiki.org/w/index.php?title=Documentation/Style_guide&section=12#Point_of_view'
+ignorecase: true
+level: warning
+nonword: true
+tokens:
+  - (?:^|\s)I\s
+  - (?:^|\s)I,\s
+  - \bI'm\b
+  - \bme\b
+  - \bmy\b
+  - \bmine\b

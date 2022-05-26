@@ -1,0 +1,16 @@
+---
+extends: existence
+message: Avoid terms like '%s' which can be frustrating for less tech-savvy users.
+link: 'https://www.mediawiki.org/w/index.php?title=Documentation/Style_guide&section=12#Voice_and_tone'
+level: error
+ignorecase: true
+tokens:
+  - obvious
+  - obviously
+  - simple
+  - simply
+  - easy
+  - easily
+  - of course
+  - clearly
+  - everyone knows

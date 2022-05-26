@@ -1,0 +1,22 @@
+---
+extends: existence
+message: Use absolute dates ('in May 2037') instead of relative dates ('%s')
+link: 'https://www.mediawiki.org/w/index.php?title=Documentation/Style_guide&section=12#Voice_and_tone'
+level: warning
+nonword: true
+raw:
+  - '(?:'
+  - January|
+  - February|
+  - March|
+  - April|
+  - May|
+  - June|
+  - July|
+  - August|
+  - September|
+  - October|
+  - November|
+  - December
+  - )
+  - '(?: [^\d]|[^\d\s])'

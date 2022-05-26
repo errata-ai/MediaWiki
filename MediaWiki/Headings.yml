@@ -1,0 +1,29 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization."
+link: 'https://www.mediawiki.org/w/index.php?title=Documentation/Style_guide&section=12#Titles_and_headers'
+level: warning
+scope: heading
+match: $sentence
+indicators:
+  - ':'
+exceptions:
+  - Azure
+  - CLI
+  - Code
+  - Cosmos
+  - Docker
+  - Emmet
+  - gRPC
+  - I
+  - Kubernetes
+  - Linux
+  - macOS
+  - Marketplace
+  - MongoDB
+  - REPL
+  - Studio
+  - TypeScript
+  - URLs
+  - Visual
+  - VS
+  - Windows
